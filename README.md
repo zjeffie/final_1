@@ -1,4 +1,4 @@
-# final Project – Data 550
+#Final Project – Data 550
 Repository Structure
 final_project/
 ├── data/       # Dataset used in analysis
@@ -8,7 +8,7 @@ final_project/
 ├── Makefile    # Build instructions
 └── README.md   # Documentation
 
-#How to Generate the Final Report
+# How to Generate the Final Report
 
 From the root folder of the repository, run:
 
@@ -31,7 +31,7 @@ All steps are executed through the script:
 
 code/06_render_report.R
 
-# Where Table Code Is Located
+#Where Table Code Is Located
 
 All table creation code is stored in:
 
