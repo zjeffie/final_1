@@ -5,4 +5,30 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
 
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+```{r}
+df <- read.csv("../data/fetal_health.csv")
+
+head(df)
+```
+
+```{r}
+summary(df)
+```
+
+```{r}
+ggplot(df, aes(x = factor(fetal_health))) +
+geom_bar(fill = "steelblue") +
+labs(
+title = "Distribution of Fetal Health Categories",
+x = "Fetal Health Category",
+y = "Count"
+)
+```
